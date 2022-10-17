@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     'react',
   ],
+  ignorePatterns: ['**/*.html'],
   rules: {
     semi: ['error', 'never'],
     'react/react-in-jsx-scope': 0,
